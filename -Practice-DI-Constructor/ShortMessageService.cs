@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _Practice_DI_Constructor
 {
-    public class ShortMessageService
+    public class ShortMessageService : IMessageService
     {
         public void Send(User user, string msg)
         {

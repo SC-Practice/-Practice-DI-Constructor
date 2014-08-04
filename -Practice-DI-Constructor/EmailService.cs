@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _Practice_DI_Constructor
 {
-    public class EmailService
+    public class EmailService : IMessageService
     {
         public void Send(User user, string msg)
         {
